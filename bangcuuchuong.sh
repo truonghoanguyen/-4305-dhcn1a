@@ -1,10 +1,10 @@
 
-for (( j=2; j<=10 ; j++ ))
+for (( i=1; i<=9 ; i++ ))
 do
    
-   for (( i=1; i<=10; i++))
+   for (( j=2; j<=9; j++))
    do
-     echo  "$j x $i = `expr $j \* $i`   "
+     echo -e "$j x $i = `expr $j \* $i`  -t "
    done
    echo ""
 done
